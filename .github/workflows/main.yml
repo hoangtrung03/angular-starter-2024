@@ -83,7 +83,7 @@ jobs:
 
   angular-build-check:
     name: Build angular application
-    needs: [jest-check]
+    needs: [ng-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
