@@ -1,0 +1,108 @@
+name: Test application generation
+
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  prettier-check:
+    name: Prettier check
+    runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup npm
+        run: npm install
+      - name: Setup yarn
+        run: npm install -g yarn
+      - name: Clean cache yarn
+        run: yarn cache clean
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: yarn install
+      - name: Run prettier check
+        run: yarn prettier
+
+  eslint-check:
+    name: Eslint check
+    runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup npm
+        run: npm install
+      - name: Setup yarn
+        run: npm install -g yarn
+      - name: Clean cache yarn
+        run: yarn cache clean
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: yarn install
+      - name: Run eslint check
+        run: yarn lint:fix
+
+  ng-check:
+    name: Tests - ng test
+    needs: [prettier-check, eslint-check]
+    runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup npm
+        run: npm install
+      - name: Setup yarn
+        run: npm install -g yarn
+      - name: Clean cache yarn
+        run: yarn cache clean
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: yarn install
+      - name: Run tests
+        run: yarn test
+        env:
+          CI: true
+
+  angular-build-check:
+    name: Build angular application
+    needs: [jest-check]
+    runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup npm
+        run: npm install
+      - name: Setup yarn
+        run: npm install -g yarn
+      - name: Clean cache yarn
+        run: yarn cache clean
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: yarn install
+      - name: Build Angular
+        run: yarn build
+        env:
+          CI: true
