@@ -163,10 +163,10 @@
   resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.0.0.tgz#b95769124ccbfed6a313e0b0b56c4c7fd90eef30"
   integrity sha512-c5XNfpWN6vfMoZpnLLeras7nUIVI10ofJu3W3s1s1NpCjP67kY84SPYRJIND1LemVewMQ+mhnP4xJnqvJxC1tA==
 
-"@angular-eslint/bundled-angular-compiler@18.0.1":
-  version "18.0.1"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.0.1.tgz#94c53b8193de1d630c9f45af2acbcd64757b6b2e"
-  integrity sha512-lr4Ysoo28FBOKcJFQUGTMpbWDcak+gyuYvyggp37ERvazE6EDomPFxzEHNqVT9EI9sZ+GDBOoPR+EdFh0ALGNw==
+"@angular-eslint/bundled-angular-compiler@18.1.0":
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.1.0.tgz#8949a95ec10804512211db41a270efd349bb4023"
+  integrity sha512-2JNlMEnCvLz8q1Qa4sWR9BddtpDWMKYguMzHJKm5zUDwH90CgWHolQlXumtpqbL8r78xd57t35IkbEFLF3UsQw==
 
 "@angular-eslint/eslint-plugin-template@^18.0.0":
   version "18.0.0"
@@ -188,12 +188,12 @@
     "@angular-eslint/utils" "18.0.0"
     "@typescript-eslint/utils" "8.0.0-alpha.20"
 
-"@angular-eslint/template-parser@^18.0.1":
-  version "18.0.1"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-18.0.1.tgz#d5e7f89f71913a670ae2a603584d77d1f9b3a95b"
-  integrity sha512-22fKzkWo9Ts8aY/WHL1A6seS2tpltgRRXVfnZnnqvQRyRiuPnx1FC0ly7+QPZkThh8vdLwxU+BvtLq9Uiqh9OQ==
+"@angular-eslint/template-parser@^18.1.0":
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-18.1.0.tgz#989e432c0ace274593e03039cd3fb23df4aa26af"
+  integrity sha512-YqBNusbt3vWbm8eo2dICytU8hP8/ez4uETkwKpMvB+H1E0rYaD2F17D47YO9BBFUHCNzAGIBlA8BWDN1kLEMlw==
   dependencies:
-    "@angular-eslint/bundled-angular-compiler" "18.0.1"
+    "@angular-eslint/bundled-angular-compiler" "18.1.0"
     eslint-scope "^8.0.0"
 
 "@angular-eslint/utils@18.0.0":
@@ -2376,15 +2376,15 @@
     "@typescript-eslint/visitor-keys" "6.21.0"
     debug "^4.3.4"
 
-"@typescript-eslint/parser@^7.13.1":
-  version "7.13.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-7.13.1.tgz#fac57811b3e519185f7259bac312291f7b9c4e72"
-  integrity sha512-1ELDPlnLvDQ5ybTSrMhRTFDfOQEOXNM+eP+3HT/Yq7ruWpciQw+Avi73pdEbA4SooCawEWo3dtYbF68gN7Ed1A==
+"@typescript-eslint/parser@^7.15.0":
+  version "7.15.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-7.15.0.tgz#f4a536e5fc6a1c05c82c4d263a2bfad2da235c80"
+  integrity sha512-k9fYuQNnypLFcqORNClRykkGOMOj+pV6V91R4GO/l1FDGwpqmSwoOQrOHo3cGaH63e+D3ZiCAOsuS/D2c99j/A==
   dependencies:
-    "@typescript-eslint/scope-manager" "7.13.1"
-    "@typescript-eslint/types" "7.13.1"
-    "@typescript-eslint/typescript-estree" "7.13.1"
-    "@typescript-eslint/visitor-keys" "7.13.1"
+    "@typescript-eslint/scope-manager" "7.15.0"
+    "@typescript-eslint/types" "7.15.0"
+    "@typescript-eslint/typescript-estree" "7.15.0"
+    "@typescript-eslint/visitor-keys" "7.15.0"
     debug "^4.3.4"
 
 "@typescript-eslint/scope-manager@6.21.0":
@@ -6981,13 +6981,13 @@ postcss@8.4.35:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.2.14, postcss@^8.4.23, postcss@^8.4.33, postcss@^8.4.35, postcss@^8.4.38:
-  version "8.4.38"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.38.tgz#b387d533baf2054288e337066d81c6bee9db9e0e"
-  integrity sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==
+postcss@^8.2.14, postcss@^8.4.23, postcss@^8.4.33, postcss@^8.4.35, postcss@^8.4.38, postcss@^8.4.39:
+  version "8.4.39"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.39.tgz#aa3c94998b61d3a9c259efa51db4b392e1bde0e3"
+  integrity sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==
   dependencies:
     nanoid "^3.3.7"
-    picocolors "^1.0.0"
+    picocolors "^1.0.1"
     source-map-js "^1.2.0"
 
 prelude-ls@^1.2.1:
@@ -7927,17 +7927,17 @@ strong-log-transformer@^2.1.0:
     minimist "^1.2.0"
     through "^2.3.4"
 
-stylelint-config-recommended@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-14.0.0.tgz#b395c7014838d2aaca1755eebd914d0bb5274994"
-  integrity sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==
+stylelint-config-recommended@^14.0.1:
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-14.0.1.tgz#d25e86409aaf79ee6c6085c2c14b33c7e23c90c6"
+  integrity sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==
 
-stylelint-config-standard@^36.0.0:
-  version "36.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-36.0.0.tgz#6704c044d611edc12692d4a5e37b039a441604d4"
-  integrity sha512-3Kjyq4d62bYFp/Aq8PMKDwlgUyPU4nacXsjDLWJdNPRUgpuxALu1KnlAHIj36cdtxViVhXexZij65yM0uNIHug==
+stylelint-config-standard@^36.0.1:
+  version "36.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-36.0.1.tgz#727cbb2a1ef3e210f5ce8329cde531129f156609"
+  integrity sha512-8aX8mTzJ6cuO8mmD5yon61CWuIM4UD8Q5aBcWKGSf6kg+EC3uhB+iOywpTK4ca6ZL7B49en8yanOFtUW0qNzyw==
   dependencies:
-    stylelint-config-recommended "^14.0.0"
+    stylelint-config-recommended "^14.0.1"
 
 stylelint@^16.6.1:
   version "16.6.1"
