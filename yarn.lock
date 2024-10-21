@@ -163,10 +163,10 @@
   resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.0.0.tgz#b95769124ccbfed6a313e0b0b56c4c7fd90eef30"
   integrity sha512-c5XNfpWN6vfMoZpnLLeras7nUIVI10ofJu3W3s1s1NpCjP67kY84SPYRJIND1LemVewMQ+mhnP4xJnqvJxC1tA==
 
-"@angular-eslint/bundled-angular-compiler@18.1.0":
-  version "18.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.1.0.tgz#8949a95ec10804512211db41a270efd349bb4023"
-  integrity sha512-2JNlMEnCvLz8q1Qa4sWR9BddtpDWMKYguMzHJKm5zUDwH90CgWHolQlXumtpqbL8r78xd57t35IkbEFLF3UsQw==
+"@angular-eslint/bundled-angular-compiler@18.4.0":
+  version "18.4.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-18.4.0.tgz#3503d8b796a3d9d6c997b342a3ae5ddf264601a4"
+  integrity sha512-HlFHt2qgdd+jqyVIkCXmrjHauXo/XY3Rp0UNabk83ejGi/raM/6lEFI7iFWzHxLyiAKk4OgGI5W26giSQw991A==
 
 "@angular-eslint/eslint-plugin-template@^18.0.0":
   version "18.0.0"
@@ -188,13 +188,13 @@
     "@angular-eslint/utils" "18.0.0"
     "@typescript-eslint/utils" "8.0.0-alpha.20"
 
-"@angular-eslint/template-parser@^18.1.0":
-  version "18.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-18.1.0.tgz#989e432c0ace274593e03039cd3fb23df4aa26af"
-  integrity sha512-YqBNusbt3vWbm8eo2dICytU8hP8/ez4uETkwKpMvB+H1E0rYaD2F17D47YO9BBFUHCNzAGIBlA8BWDN1kLEMlw==
+"@angular-eslint/template-parser@^18.4.0":
+  version "18.4.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-18.4.0.tgz#92d0cc51d709b81a0589cb2c4f248c797ccec529"
+  integrity sha512-VTep3Xd3IOaRIPL+JN/TV4/2DqUPbjtF3TNY15diD/llnrEhqFnmsvMihexbQyTqzOG+zU554oK44YfvAtHOrw==
   dependencies:
-    "@angular-eslint/bundled-angular-compiler" "18.1.0"
-    eslint-scope "^8.0.0"
+    "@angular-eslint/bundled-angular-compiler" "18.4.0"
+    eslint-scope "^8.0.2"
 
 "@angular-eslint/utils@18.0.0":
   version "18.0.0"
@@ -4267,10 +4267,10 @@ eslint-scope@^7.1.1, eslint-scope@^7.2.2:
     esrecurse "^4.3.0"
     estraverse "^5.2.0"
 
-eslint-scope@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-8.0.0.tgz#7b6b067599c436404ce856cd2c47331464603a4a"
-  integrity sha512-zj3Byw6jX4TcFCJmxOzLt6iol5FAr9xQyZZSQjEzW2UiCJXLwXdRIKCYVFftnpZckaC9Ps9xlC7jB8tSeWWOaw==
+eslint-scope@^8.0.2:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-8.1.0.tgz#70214a174d4cbffbc3e8a26911d8bf51b9ae9d30"
+  integrity sha512-14dSvlhaVhKKsa9Fx1l8A17s7ah7Ef7wCakJ10LYk6+GYmP9yDti2oq2SEwcyndt6knfcZyhyxwY3i9yL78EQw==
   dependencies:
     esrecurse "^4.3.0"
     estraverse "^5.2.0"
